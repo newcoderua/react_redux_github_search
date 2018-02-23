@@ -9,8 +9,8 @@ export default class InputResults extends React.Component {
 
     this.state = {
       users: this.props.users,
-      client_id: this.props.client_id(),
-      client_secret: this.props.client_secret()
+      client_id: 9d668700929a909ff984,
+      client_secret: e48f108e21653a542de563191a65edfd95810b5e,
     }
 
     this.handleChange = this.handleChange.bind(this);
