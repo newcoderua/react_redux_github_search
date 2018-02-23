@@ -1,0 +1,98 @@
+body {
+  background-color: #f0eeee;
+}
+
+.input-result {
+  display: flex;
+  justify-content: center;
+}
+
+.other-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.some-content-1 {
+  width: 100%;
+  background-color: #c9c9c9;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.inner-input-results {
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  margin: 10px;
+  // height: 30px;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 2px 2px 4px 1px #ccc;
+  position: relative;
+}
+
+.inner-other-content {
+  width: 60%;
+}
+
+input {
+  width: 90%;
+  border: 0px;
+  padding-left: 5px;
+  height: 30px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.search-results {
+  display: none;
+  position: absolute;
+  background: white;
+  width: 100%;
+  text-align: start;
+  background-color: #dedbdb;
+  font-size: 12px;
+  // padding-left: 5px;
+}
+
+.search-results-items {
+  background-color: white;
+}
+
+#button-results {
+  width: 100%;
+  border: 0px;
+  text-align: start;
+  border-bottom: 1px solid lightgrey;
+}
+
+#button-results:hover {
+  background-color: #6a6ae2;
+  color: white;
+}
+
+
+
+#button-results-picked {
+  width: 100%;
+  border: 0px;
+  text-align: start;
+  border-bottom: 1px solid lightgrey;
+  background-color: #6a6ae2;
+  color: white;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+#github-users {
+  margin-left: 5px;
+}
